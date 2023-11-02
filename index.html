@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript exercise</title>
+  </head>
+  <body>
+    <p id="result"></p>
+
+    <script>
+      //Objects
+      let variable = undefined;
+      firstName = "Aira";
+      lastName = "Toivgoo";
+      country = "Mongolia";
+      email = "aira@gmail.com";
+
+      //PERIMETER
+      let g = 5;
+      let y = 6;
+      let perimeter = 2 * (g + y);
+      document.getElementById("result").innerHTML = perimeter;
+      console.log(perimeter);
+
+      // //TOTAL AREA OF A CIRCLE
+      let r = 10;
+      let pi = Math.PI;
+      let area = r ^ (2 * Math.PI);
+      document.getElementById("result").innerHTML = area;
+      console.log(area);
+
+      // //AREA OF A SQUARE
+      let w = 4;
+      let square_area = Math.pow(w, 2);
+      document.getElementById("result").innerHTML = square_area;
+      console.log(square_area);
+
+      //RANDOM EQUATIONS
+      let l = 194374;
+      let i = 98942839820;
+      let plus = l + i;
+      console.log(plus);
+
+      //DATA TYPE
+      let length = 16;
+      let text = "Johnson";
+      const car = { type: "Fiat", model: "500", color: "white" };
+      const x = {
+        firstname: "John",
+        lastname: "Doe",
+      };
+      console.log(typeof car);
+      console.log(typeof x);
+
+      for (let i = 0; i < 5; i++) {
+        console.log("Iteration" + i);
+      }
+    </script>
+  </body>
+</html>
